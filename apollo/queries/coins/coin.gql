@@ -1,0 +1,9 @@
+query Coin($id: ID!) {
+  coin(id: $id) {
+    id    
+    symbol
+    amount
+    initPrice
+    user
+  }
+}
